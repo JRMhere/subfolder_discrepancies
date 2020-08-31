@@ -1,0 +1,1 @@
+Takes two directories. Checks the differences between the lists of subdirectories.

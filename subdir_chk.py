@@ -13,6 +13,5 @@ def find_diffs(x1, x2):
     y2 = list(set(x2)-set(x1)) #Things in x2 that aren't in x1
     return [y1, y2]
 
-dir1 = "//files.brandeis.edu/cmjs/MetaAnalysis/SurveyOriginals/Files in MetaAnalysis"
-dir2 = "//files.brandeis.edu/cmjs/MetaAnalysis/AnalysisWork/IndividualSurveys/Files in MetaAnalysis"
+
 
