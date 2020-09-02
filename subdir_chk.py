@@ -10,6 +10,7 @@ def get_subdirs(dir1, dir2):
     return [x1, x2] #Returns as a list of two lists.
 
 def find_diffs(x1, x2):
+    #Takes two lists and compares them
     y1 = list(set(x1)-set(x2)) #Things in x1 that aren't in x2
     y2 = list(set(x2)-set(x1)) #Things in x2 that aren't in x1
     return [y1, y2]
